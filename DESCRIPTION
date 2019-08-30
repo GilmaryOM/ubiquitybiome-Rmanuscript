@@ -1,11 +1,11 @@
-Package: manuscriptPackage
-Title: Template package for creating manuscript within an R Package
+Package: ubiquitybiom
+Title: Ubiquity analysis of microbial data
 Version: 0.1
 Authors@R:
-    c(person("Jeff","Hollister",role=c("aut","cre"),email="hollister.jeff@epa.gov"))
-Description: This package contains an example Rmd and .latex template for
-    creating a manuscript as a vignette in an R package.  This allows for
-    installing a package in R and having data, script, etc reproduced in R.
+    c(person("Filipa","Godoy-Vitorino",role=c("aut","cre"),email="fgodoy@upr.com"),
+    person("Gilmary","Ortiz-Morales",role=c("aut","cre"),email="gilmary.ortiz@gmail.com"))
+Description: This package contain a function created in a S4 generic Object Oriented (OO) system. 
+    This package works with OTU table counts and metadata files. It will produce a data frame that can be used to visualization.
 Suggests:
     knitr,
     rmarkdown
